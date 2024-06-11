@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{Base :: layout(~{::section})}">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<section>
+		<div class="container p-5">
+			<p class="text-center fs-3 mt-4">Admin Dashboard</p>
+			<div class="row p-5">
+				<div class="col-md-4 mt-2">
+					<a href="/admin/loadAddProduct" class="text-decoration-none">
+						<div class="card card-sh">
+							<div class="card-body text-center">
+								<i class="fa-solid fa-plus fa-3x text-primary"></i>
+								<h4 class="text-secondary">Add Product</h4>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-4 mt-2">
+					<a href="/admin/category" class="text-decoration-none">
+						<div class="card card-sh">
+							<div class="card-body text-center">
+								<i class="fa-solid fa-list fa-3x text-warning"></i>
+								<h4 class="text-secondary">Add Category</h4>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-4 mt-2">
+					<a href="/admin/products" class="text-decoration-none">
+						<div class="card card-sh">
+							<div class="card-body text-center">
+							<i class="fa-solid fa-layer-group fa-3x text-success"></i>
+								<h4 class="text-secondary">View Product</h4>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-4 mt-4">
+					<a href="#" class="text-decoration-none">
+						<div class="card card-sh">
+							<div class="card-body text-center">
+								<i class="fa-solid fa-box-open fa-3x text-warning"></i>
+								<h4 class="text-secondary">Orders</h4>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-4 mt-4">
+					<a href="#" class="text-decoration-none">
+						<div class="card card-sh">
+							<div class="card-body text-center">
+								<i class="fa-solid fa-circle-user fa-3x text-info"></i>
+								<h4 class="text-secondary">Users</h4>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-4 mt-4">
+					<a href="#" class="text-decoration-none">
+						<div class="card card-sh">
+							<div class="card-body text-center">
+								<i class="fa-solid fa-user-plus fa-3x text-danger"></i>
+								<h4 class="text-secondary">Add Admin</h4>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
